@@ -1,0 +1,75 @@
+.fondo{
+    height: 100vh;
+    width: 100%;
+    background-repeat:repeat-y;
+    background-position:top;
+    background-size: cover;
+
+}
+header{
+    background-image: url('../assets/8.png');
+    background-size: cover;
+    background-position: center center;
+    background-attachment:fixed;
+}
+.fotonovios{
+    border-radius: 100%;
+    width: 25%;
+
+
+}
+.bgtwo{
+    background-image: url(../assets/6.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment:fixed;
+    
+
+
+
+}
+
+.menus{
+    font-family: 'Great Vibes', cursive;
+    font-size: 10px;
+    color:red;
+}
+body {
+    font-family: 'Oswald', sans-serif !important;
+  }
+
+@media screen and (max-width:770px) {
+
+    .fondo{
+        height: 80vh;
+
+        width: 100%;
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: top center;
+         background-attachment:fixed;
+        
+    }
+    header{
+        background-image: url(../assets/1.png);
+       
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment:fixed;
+    }
+    .menus{
+
+        font-size: 20px !important;
+
+    }
+    .bgtwo{
+        background-image: url(../assets/2.png);
+        background-size: cover;
+        background-position: center center;
+        background-attachment:fixed;
+        
+    
+    
+    
+    }
+}
