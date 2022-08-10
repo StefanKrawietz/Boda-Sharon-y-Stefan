@@ -23,11 +23,11 @@
         <!-- Responsive navbar-->
     <nav class="navbar navbar-expand-lg fixed-top bg-white py-1">
             <div class="container">
-                <a class="navbar-brand menus fs-2 text-primary " href="#!">Home</a>
-                <a class="navbar-brand menus fs-2 text-primary " href="#!">Nosotros</a>
-                <a class="navbar-brand menus fs-2 text-primary " href="#!">Misa</a>
-                <a class="navbar-brand menus fs-2 text-primary " href="#!">Recepción</a>
-                <a class="navbar-brand menus fs-2 text-primary " href="#!">RSVP</a>               
+                <a class="navbar-brand menus fs-2 text-primary " href="#">Home</a>
+                <a class="navbar-brand menus fs-2 text-primary " href="#us">Nosotros</a>
+                <a class="navbar-brand menus fs-2 text-primary " href="#misa">Misa</a>
+                <a class="navbar-brand menus fs-2 text-primary " href="#recepcion">Recepción</a>
+                <a class="navbar-brand menus fs-2 text-primary " href="#RSVP">RSVP</a>               
             </div>
         </nav>
         <!-- Header - set the background image for the header in the line below-->
@@ -36,24 +36,57 @@
             </div>
         </header>
         <!-- Content section-->
-        <section class="Nosotros">
-            <div class="container my-5">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <h2>Nosotros</h2>
-                        <img src="./assets/Sharon.jpg" class="img-fluid float-start fotonovios" alt="...">
-                        <img src="./assets/Sharon.jpg" class="img-fluid float-end fotonovios" alt="...">
-                    </div>
-                    <hr class="text-white">
-
-                    <div class="col-lg-6">
-                        <p class="lead">A single, lightweight helper class allows you to add engaging, full width background images to sections of your page.</p>
-                        <p class="mb-0">The universe is almost 14 billion years old, and, wow! Life had no problem starting here on Earth! I think it would be inexcusably egocentric of us to suggest that we're alone in the universe.</p>
-
-                    </div>
+            <div class="container overflow-hidden text-center ">
+                <h1 class="p-2 menus fs-7 text-primary"><a name="us">Nosotros</a></h1>
+                <div class="row gx-5 ">
+                  <div class="col justificar">
+                   <div >
+                    <div class="card border-white " style="width: 18rem;">
+                        <img src="./assets/Sharon.jpg" class="card-img-top rounded-circle " alt="...">
+                        <div class="card-body">
+                          <p class="card-text menus fs-5 text-primary">Sharon Ruby Hernández Catalán </p>
+                        </div>
+                      </div>
+                   </div>
+                  </div>
+                  <div class="col justificar">
+                    <div class="p-5 "><div class="card border-white  " style="width: 18rem;">
+                        <img src="./assets/Stefan1.jpeg" class="card-img-top rounded-circle" alt="...">
+                        <div class="card-body">
+                          <p class="card-text menus fs-5 text-primary">Stefan Faiwel Krawietz Wizel</p>
+                        </div>
+                      </div></div>
+                  </div>
                 </div>
-            </div>
-        </section>
+              </div>
+           
+              <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="./assets/us1.jpeg" class="d-block w-100 caruselFoto" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./assets/us8.jpeg" class="d-block w-100 caruselFoto" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/us7.jpeg" class="d-block w-100 caruselFoto" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/us4.jpeg" class="d-block w-100 caruselFoto" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/us5.jpeg" class="d-block w-100 caruselFoto" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         <section class="py-5 bgtwo ">
             <div class="container my-5">
                
@@ -63,10 +96,11 @@
 
      
         
-        <section class="py-5">
+        <section class="py-5 text-center ">
             <div class="container my-5">
-                <div class="row justify-content-center">
-                    <h1>Misa</h1>
+                <div class="divisor"><a name="misa"></a></div>
+                <div class="row justify-content-center menus fs-7 text-primary">
+                    <h1><a name="misa1">Misa</a></h1>
                     <img src="./assets/Parroquia.jpg" class="img-fluid" alt="...">
                     <div class="col-lg-6">
                         <h2>Como llegar?</h2>
@@ -81,10 +115,10 @@
                
             </div>
         </section>
-        <section class="py-5">
+        <section class="py-5 text-center ">
             <div class="container my-5">
-                <div class="row justify-content-center">
-                    <h1>Recepción</h1>
+                <div class="row justify-content-center menus fs-7 text-primary">
+                    <h1><a name="recepcion">Recepción</a></h1>
                     <img src="./assets/Hotel.jpg" class="img-fluid" alt="...">
                     <div class="col-lg-6">
                         <h2>Como llegar?</h2>
@@ -96,8 +130,9 @@
 
         </section>
         </div>
+        <div class="divisor"><a name="RSVP"></a></div>
         <hr class="m-5 text-white"/>
-
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScQ8H_VfjI6cy0oP_rK22yHZfEQJYKrZ7Buy3DbSw_59xIboQ/viewform?embedded=true" width="100%" height="819" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
     
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
       

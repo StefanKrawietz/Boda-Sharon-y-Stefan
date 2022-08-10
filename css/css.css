@@ -7,25 +7,79 @@
 
 }
 header{
-    background-image: url('../assets/8.png');
+    background-image: url('../assets/8.jpg');
     background-size: cover;
     background-position: center center;
     background-attachment:fixed;
 }
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    border-radius:10%;
+}
+
+iframe{
+    border-radius: 10px;
+}
+.textofotos{
+    width: 100%;
+}
+.carousel-item{
+    margin-bottom: 2vh;
+}
+.caruselFoto{
+    height: 100vh;
+    object-fit: contain;
+
+}
+.fotosnosotros{
+    width: 100%;
+    
+}
+.imagenesnosotros{
+    border-radius: 100% ;
+}
+.justificar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titulofotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
 .fotonovios{
     border-radius: 100%;
-    width: 25%;
+    width: 100%;
+
 
 
 }
 .bgtwo{
-    background-image: url(../assets/6.png);
+    background-image: url(../assets/6.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment:fixed;
     
-
-
+}
+.col-lg-6{
+    padding-top: 1rem;
 
 }
 
@@ -50,8 +104,12 @@ body {
          background-attachment:fixed;
         
     }
+    .fotonovios{
+        width: 100%;
+
+    }
     header{
-        background-image: url(../assets/1.png);
+        background-image: url(../assets/1.jpg);
        
         background-repeat: no-repeat;
         background-position: center center;
@@ -63,7 +121,7 @@ body {
 
     }
     .bgtwo{
-        background-image: url(../assets/2.png);
+        background-image: url(../assets/2.jpg);
         background-size: cover;
         background-position: center center;
         background-attachment:fixed;

@@ -37,7 +37,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 223, 189, 105;
+  --bs-primary-rgb: 163, 136, 49;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -8011,6 +8011,9 @@ textarea.form-control-lg {
 
 .fs-6 {
   font-size: 1rem !important;
+}
+.fs-7 {
+  font-size: calc(2rem + 0.9vw) !important;
 }
 
 .fst-italic {
