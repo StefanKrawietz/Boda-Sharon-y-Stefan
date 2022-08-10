@@ -57,6 +57,9 @@ iframe{
     align-items: center;
 
 }
+.info{
+    padding-bottom: 50px;
+}
 
 .titulofotos{
     display: flex;
