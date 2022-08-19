@@ -22,7 +22,11 @@ header{
 img{
     border-radius:10%;
 }
+.imagen{
 
+    border-radius:0;
+    width: 100%;
+}
 iframe{
     border-radius: 10px;
 }
@@ -81,6 +85,14 @@ iframe{
     background-attachment:fixed;
     
 }
+
+.bgthree{
+    background-image: url(../assets/Regalo1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment:fixed;
+    
+}
 .col-lg-6{
     padding-top: 1rem;
 
@@ -99,7 +111,6 @@ body {
 
     .fondo{
         height: 80vh;
-
         width: 100%;
          background-size: cover;
          background-repeat: no-repeat;
@@ -112,7 +123,7 @@ body {
 
     }
     header{
-        background-image: url(../assets/1.jpg);
+        background-image: url(../assets/F1.jpg);
        
         background-repeat: no-repeat;
         background-position: center center;
@@ -132,5 +143,9 @@ body {
     
     
     
+    }
+    .imagen{
+        content: url(../assets/Regalo2.jpg)
+
     }
 }
